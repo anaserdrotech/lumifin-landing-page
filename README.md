@@ -34,7 +34,6 @@ lumifin-html/
 ├── index.html          # Arquivo HTML principal
 ├── css/
 │   └── styles.css      # Estilos customizados
-├── images/             # Pasta para imagens (se necessário)
 └── README.md           # Este arquivo
 ```
 
