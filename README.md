@@ -100,7 +100,8 @@ Projeto publicado em repositório público no GitHub com todos os arquivos neces
 
 ## 📝 Notas
 
-- O projeto não utiliza JavaScript, apenas HTML, CSS e Tailwind CSS
+- Não utiliza JavaScript para funcionalidades da aplicação.
+Apenas HTML5, CSS3 e Tailwind CSS (via CDN).
 - Todas as imagens e ícones são emojis ou símbolos Unicode para garantir compatibilidade
 - O arquivo `index.html` pode ser aberto diretamente em qualquer navegador moderno
 - Tailwind CSS é carregado via CDN para facilitar a execução
