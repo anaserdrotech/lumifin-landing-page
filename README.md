@@ -112,4 +112,4 @@ Para dúvidas sobre o projeto, entre em contato através do repositório GitHub.
 
 ---
 
-**Desenvolvido para a atividade FIAP - Fintech Landing Page (Fase 2)**
+**Desenvolvido para a atividade FIAP - Fintech Landing Page (Fase 4)**
