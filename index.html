@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LumiFin - Controle financeiro com clareza e intenção">
+  <title>LumiFin - Fintech de Controle Financeiro</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Custom CSS para animações -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-white font-sans">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
+    <nav class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between flex-wrap gap-4">
+      <div class="flex items-center gap-2">
+        <div class="w-10 h-10 bg-blue-700 rounded-lg flex items-center justify-center">
+          <span class="text-white font-bold text-lg">L</span>
+        </div>
+        <span class="text-xl font-bold text-blue-700" style="font-family: 'Poppins', sans-serif;">LumiFin</span>
+      </div>
+      <button class="bg-blue-700 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-800 transition-all duration-180 transform hover:scale-105 active:scale-97" style="font-family: 'Poppins', sans-serif;">Criar Conta</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-white to-gray-50 relative overflow-hidden min-h-screen flex items-center py-16 px-4">
+    <div class="absolute top-0 right-0 -mr-40 w-96 h-96 bg-cyan-400 rounded-full opacity-10"></div>
+    <div class="max-w-6xl mx-auto relative z-10">
+      <div class="max-w-3xl fade-in-up">
+        <h1 class="text-5xl md:text-6xl font-bold text-blue-700 mb-6" style="font-family: 'Poppins', sans-serif; letter-spacing: -0.02em;">Controle financeiro com clareza e intenção</h1>
+        <p class="text-lg md:text-xl text-gray-700 mb-8 max-w-2xl leading-relaxed">Organize entradas, saídas, metas e decisões com uma experiência simples para desktop. Gerencie suas finanças de forma integrada e inteligente.</p>
+        <div class="flex gap-4 flex-wrap">
+          <button class="bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-800 transition-all duration-180 transform hover:scale-105 active:scale-97" style="font-family: 'Poppins', sans-serif;">Comece Agora</button>
+          <button class="bg-transparent text-blue-700 px-8 py-4 rounded-lg font-semibold text-lg border-2 border-blue-700 hover:bg-blue-700 hover:text-white transition-all duration-180 transform hover:scale-105 active:scale-97" style="font-family: 'Poppins', sans-serif;">Saiba Mais</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="bg-gray-50 py-16 md:py-20 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-4xl md:text-5xl font-bold text-blue-700 mb-12 text-center" style="font-family: 'Poppins', sans-serif;">Funcionalidades Principais</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Feature 1 -->
+        <div class="bg-white border border-gray-200 border-l-4 border-l-cyan-400 rounded-lg p-8 transition-all duration-250 hover:border-l-blue-700 hover:shadow-lg hover:-translate-y-1 fade-in-up">
+          <div class="text-5xl mb-4">💰</div>
+          <h3 class="text-xl font-bold text-blue-700 mb-3" style="font-family: 'Poppins', sans-serif;">Múltiplas Contas</h3>
+          <p class="text-gray-700 text-base leading-relaxed">Gerencie contas corrente, poupança e carteira em um único lugar.</p>
+        </div>
+        <!-- Feature 2 -->
+        <div class="bg-white border border-gray-200 border-l-4 border-l-cyan-400 rounded-lg p-8 transition-all duration-250 hover:border-l-blue-700 hover:shadow-lg hover:-translate-y-1 fade-in-up" style="animation-delay: 50ms;">
+          <div class="text-5xl mb-4">📊</div>
+          <h3 class="text-xl font-bold text-blue-700 mb-3" style="font-family: 'Poppins', sans-serif;">Transações Categorizadas</h3>
+          <p class="text-gray-700 text-base leading-relaxed">Organize suas movimentações financeiras por categorias customizáveis.</p>
+        </div>
+        <!-- Feature 3 -->
+        <div class="bg-white border border-gray-200 border-l-4 border-l-cyan-400 rounded-lg p-8 transition-all duration-250 hover:border-l-blue-700 hover:shadow-lg hover:-translate-y-1 fade-in-up" style="animation-delay: 100ms;">
+          <div class="text-5xl mb-4">🎯</div>
+          <h3 class="text-xl font-bold text-blue-700 mb-3" style="font-family: 'Poppins', sans-serif;">Metas Financeiras</h3>
+          <p class="text-gray-700 text-base leading-relaxed">Planeje seus objetivos de curto, médio e longo prazo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dashboard Section -->
+  <section class="bg-white py-16 md:py-20 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-4xl md:text-5xl font-bold text-blue-700 mb-12 text-center" style="font-family: 'Poppins', sans-serif;">Seu Painel Financeiro</h2>
+      <div class="grid md:grid-cols-4 gap-6">
+        <!-- Card 1 - Saldo Total -->
+        <div class="text-center p-6 bg-blue-50 rounded-lg border border-blue-100 fade-in-up">
+          <div class="text-4xl font-bold text-blue-700 mb-2" style="font-family: 'Poppins', sans-serif;">R$ 5.840</div>
+          <div class="text-gray-700 font-medium">Saldo Total</div>
+        </div>
+        <!-- Card 2 - Entradas -->
+        <div class="text-center p-6 bg-green-50 rounded-lg border border-green-100 fade-in-up" style="animation-delay: 50ms;">
+          <div class="text-4xl font-bold text-green-600 mb-2" style="font-family: 'Poppins', sans-serif;">R$ 3.240</div>
+          <div class="text-gray-700 font-medium">Entradas</div>
+        </div>
+        <!-- Card 3 - Saídas -->
+        <div class="text-center p-6 bg-red-50 rounded-lg border border-red-100 fade-in-up" style="animation-delay: 100ms;">
+          <div class="text-4xl font-bold text-red-600 mb-2" style="font-family: 'Poppins', sans-serif;">R$ 1.420</div>
+          <div class="text-gray-700 font-medium">Saídas</div>
+        </div>
+        <!-- Card 4 - Meta -->
+        <div class="text-center p-6 bg-amber-50 rounded-lg border border-amber-100 fade-in-up" style="animation-delay: 150ms;">
+          <div class="text-4xl font-bold text-amber-600 mb-2" style="font-family: 'Poppins', sans-serif;">72%</div>
+          <div class="text-gray-700 font-medium">Meta do Mês</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="bg-blue-700 text-white py-16 md:py-20 px-4">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl md:text-5xl font-bold mb-6" style="font-family: 'Poppins', sans-serif;">Comece Seu Controle Financeiro Hoje</h2>
+      <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-90 leading-relaxed">Junte-se a milhares de usuários que já confiam na LumiFin para gerenciar suas finanças com clareza.</p>
+      <button class="bg-cyan-400 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-cyan-500 transition-all duration-180 transform hover:scale-105 active:scale-97" style="font-family: 'Poppins', sans-serif;">Criar Conta Grátis</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-12 px-4">
+    <div class="max-w-6xl mx-auto text-center text-sm opacity-80">
+      <p>Copyright 2024 LumiFin. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
